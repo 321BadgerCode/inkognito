@@ -17,15 +17,6 @@ gcc -O3 ./main.c -o ./inkognito.exe
 
 <summary>Command Line Arguments</summary>
 
---version:		get version
--e:			encode [default]
--d:			decode
--i <message|filename>:	input string or a file
--o <filename>:		output image file [default: ./output.bmp]
--r <int>:		rotate ascii in input text [default: random]
--m <seed|filename>:	mix with specific base64 seed or image [optional]
--p <int>:		pixel minimum value to be true [default: 128]
-
 |	Argument	|	Description				|	Notes			|
 |	:---:		|	:---:					|	:---:			|
 |	-h|--help	|	Display help message			|				|
